@@ -1,0 +1,40 @@
+Estructura
+Comado: Explicación
+git init:   Crear un nuevo repositorio local.
+git add "nombre del archivo": Añade un archivo especifico para agregar al siguiente commit
+git add . : Añadir todos los archivos para agregar en el siguiente commit
+git config user.name nombre:    configurar tus credenciales
+git config user.email email@email.com:  Configurar tus credenciales
+git config global user.name nombre: configurar tus credenciales de manera global en la maquina
+git config global user.email email@email.com: configurar tus credenciales de manera global en la maquina
+git config --global --unset user.name nombre: borrara de forma global la información de las credenciales
+git config --global --unset user.email email@email.com: borrara de forma global la información de las credenciales
+git commit -m "mensaje": hacer un commit
+git rm archivo: remover un archivo
+git rm -r directorio: remover un directorio y los archivos que contine.
+
+git remote add origin "nombre del repositorio remoto": Esto vincula nuestro repositorio local con el repositorio de github.
+git push origin "nombre de la branch": Esto subira los commits que no se encuentren sincronizados a la rama de nuestro repositorio que elegimos.
+git pull origin "nombre de la branch": Esto actualizara el repositorio local con la branch
+git clone "nombre del repositorio remoto": Para copiar un repositorio que se encuentra en github en una maquina que no lo tiene.
+git branch "nombre nueva branch": crea una nueva branch
+git checkout "nombre de la branch": Cambia a una branch existente
+git checkout -n "nombre nueva branch": Crea una branch nueva y apunta a ella.
+git merge "branch": Desde la branch mas desactualizada y que recibira los cambios, crea una union entre las branchs.
+git branch: Lista de las branches
+git branch -d "nombre branch": apaga una branch que ya haya realizado merge
+git branch -v: lista las branchs con información de los ultimos commits
+git branch --merged: lista las branchs que ya se han unido con la main
+git branch --no-merged:lista las branchs que no se han unido con la main
+git merge --abort o git reset --merge: cuando hya problemas con una union y queremos deshacerla
+git reset HEAD: para volver un commit anterior. 
+
+git help "comando que se necesita ayuda": Esto te arrogara toda la información atributos, etc. del comando escrito.
+git config --list: Ver la configuración de git
+git status: muestra el estado de los archivos en su repositorio
+git log: muestra el historial
+git log --oneline: muestra el historial por lineas (una linea por cada commit)
+git remote -v: ver el estado del repositorio git
+git remote show origin: permite ver la información de los repositorios remotos.
+git remote rename origin "nombre nuevo": para renombrar un repositorio remoto
+git remote rm "nombre archivo": desvincula un repositorio remoto
