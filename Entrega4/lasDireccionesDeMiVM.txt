@@ -1,0 +1,14 @@
+Trabajo Entrega 4
+
+IP privada de mi Maquina Virtual  
+Direc. inet:10.0.2.15
+
+Ip pública de mi Maquina Virtual
+187.145.99.237
+
+Dirección MAC de mi maquina virtual 
+direcciónHW 08:00:27:be:ba:7e  
+
+¿Es diferene a la IP pública y privada de nuestra máquina host?
+R.- La IP pública es exactamente la misma ya que estamos en la misma red, 
+pero la IP privada si es diferente ya que esa se asigna a cada dispositivo.
